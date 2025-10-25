@@ -45,7 +45,7 @@ services:
       mysql-service:
         condition: service_healthy
 volumes:
-  mysql-data:
+  mysql-vol:
   wordpress-vol:
 
 networks:
