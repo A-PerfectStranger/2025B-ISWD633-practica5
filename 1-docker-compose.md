@@ -15,7 +15,7 @@ El archivo compose.yaml permitirá configurar dos servicios de acuerdo con el si
 
 ![Ejercicio docker compose](imagenes/ejercicio-docker-compose.PNG)
 
-### Revise el archivo archivo compose.yaml y complete solamente las partes que solicitan <valor>, para eso considerar:
+### Revise el archivo compose.yaml y complete solamente las partes que solicitan <valor>, para eso considerar:
 - La clave **services** define los servicios (contenedores) que conforman tu aplicación. Cada servicio se describe con un nombre único y contiene configuraciones específicas como la imagen de Docker que debe usar, los volúmenes, las redes, las variables de entorno, y más. Para el ejercicio es necesario definir dos servicios: mysql-service y wordpress-service.
 - Es necesario configurar las variables de entorno para cada uno de los contenedores
 - Realizar el mapeo de puertos para Wordpress host:contenedor
